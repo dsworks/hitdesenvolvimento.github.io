@@ -1,0 +1,283 @@
+/*BOX GERAL*/
+.container { float: left; width: 100%; margin-bottom: 30px; min-width:500px; }
+.content {margin: 0 10%; width: 80%;}
+.clear {clear: both;}
+.fontzero{font-size: 0;}
+.opacity {float: left; background-color: rgba(0,0,0,.5); width: 100%; height: 100%;}
+
+video.download_block::-webkit-media-controls-enclosure{
+    overflow: hidden;
+}
+video.download_block::-webkit-media-controls-panel{
+    width: calc(100% + 32px);
+}
+
+.green-box{width: 60%; margin: 10px 20%; background-color: #95D08A; padding: 5px 10px; display: none;}
+.green-box p {text-align: center; color: #fff; width: 100%; vertical-align: middle; text-transform: capitalize; 
+	     margin-top: 15px; font-weight: 600;}
+
+.section-title-rose {
+    display: block;
+    width: 300px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: #FF595E;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px auto;
+
+}
+
+.big-title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5%;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.medium-title {
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.section-title-white {
+    display: block;
+    width: 300px;
+    text-transform: uppercase;
+    padding: 20px 0;
+    background-color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    color: #FF595E;
+    margin: 10px auto;
+
+}
+/*MAIN_HEADER*/
+.main_header {
+    background-color: #DADEC3;
+    padding: 10px 0;
+    font-size: 1em;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+.main-logo {
+    float: left;
+    width: 17%;
+    margin-top: 1%;
+
+}
+
+.main-menu {
+    float: right;
+    margin-top: 10px;
+    margin-top: 1.5%;
+}
+
+.main-menu ul{
+    width: 100%;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-top:15px;
+}
+
+.main-menu a {
+    color: #323C56;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+
+.main-menu a:hover {
+    background: #FF595E;
+    color: #fff;
+}
+
+/*DESTAQUE*/
+.destaque {
+    float: left;
+    background: url('../img/bg_destaque.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+}
+
+.destaque .content {
+    margin-top: 90px;
+}
+
+
+.big-title span {
+    display: block;
+    font-size: 1em;
+    font-weight: 100;
+    text-transform: initial;
+}
+
+.destaque .tagline {
+    color: #fff;
+    text-align: center;
+    margin-top: 1%;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+/*PORTFOLIO*/
+
+
+.portfolio-project:nth-of-type(1n+0) {
+    margin-left: 2.5%;
+}
+
+.portfolio-project {
+    float: left;
+    width: 30%;
+    margin: 10px 1%;
+}
+
+.portfolio-project:nth-of-type(3n+0) {
+    margin-right: 0;
+}
+
+.portfolio-project img {
+    width: 100%;
+    border: 0;
+}
+
+/*SECTION ABOUT*/
+.section-about {
+    text-align: center;
+    background: url('../img/bg_sobre.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+    color: #fff;
+    margin: 0;
+}
+
+.section-about .content {
+    margin-bottom: 30px;
+}
+
+.background-trasparency {
+    background: rgba(0,0,0,.7);
+    padding: 10px;
+    margin: 10px;
+
+
+}
+
+.section-about a {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    background: #323C56;
+    width: 200px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.section-about a:hover {
+    background:#95D08A; 
+    color: #fff;
+}
+
+/*CONTATO*/
+.contato {
+    background-color: #FF595E;
+    margin: 0;
+}
+
+.contato .tagline {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.4em;
+    font-weight: bold;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.contato .p_center {
+    color: #FFFFFF;
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.form_contato {
+    float: left;
+}
+
+
+.form_contato
+    input, textarea
+{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #ccc;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+
+.btn_contato {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    font-size: 1.3em;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #fff;
+    background: #323C56;
+    width: 200px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn_contato:hover {
+    background: #95D08A; 
+}
+
+.form_load {
+    display: none;
+    margin: 10px auto;
+}
+
+/*MAIN_FOOTER*/
+.main-footer {
+    text-align: center;
+    background: #DADEC3;
+    margin-bottom: -30px;
+}
+
+
+.social_icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px;
+}
+
+.footer_title {
+    width: 500px;
+}
+
+.main-footer p {
+    margin-top: 30px;
+}
